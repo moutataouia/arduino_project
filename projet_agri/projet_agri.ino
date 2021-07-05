@@ -8,7 +8,7 @@
 #define DHTPIN  2
 #define DHTTYPE DHT22
 
-DHT dht(DHTPIN, DHTTYPE); // for temp and humi
+DHT dht(DHTPIN, DHTTYPE);
 RTC_DS3231 rtc;
 File myFile;
 DateTime now;
